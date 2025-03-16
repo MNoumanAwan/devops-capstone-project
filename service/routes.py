@@ -58,7 +58,7 @@ def create_accounts():
     )
 
 ######################################################################
-# LIST ALL ACCOUNTS
+# LIST ALL THE ACCOUNTS
 ######################################################################
 @app.route("/accounts", methods=["GET"])
 def list_accounts():
